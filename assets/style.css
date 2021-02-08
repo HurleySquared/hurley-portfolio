@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    background: #31c8ee;
+    color:#fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 16px;
+    justify-content: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 28px;
+    padding-left: 8px;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.love {
+    height: 440px;
+    width: 100%;
+    background-image: url(.././images/somethinggreat.jpg);
+    background-position: center;
+}
+
+article p {
+    background-color: #7cdff8;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    color: black;
+    margin-left: 28px;
+    font-size: 36px;
+}
+
+footer {
+    background-color: #31c8ee;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+    color: #fff;
+}
