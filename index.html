@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Description of what the page is, my (future)job, and other attributes -->
     <meta name="description" content="My Personal Portfolio Developer | Full Stack Developer| Design | Creator">
+    <!-- Title includes name/portfolio so it shows in the tab of site -->
     <title>Eric Hurley | Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -12,7 +14,8 @@
 <body>
     <header>
         <h1>Eric Hurley</h1>
-        <div class="selfie" alt="Eric Hurley Selfie"></div>
+        <span class="selfie" alt="Eric Hurley Selfie"></span>
+        <!-- Navigation links to the main body of the page using placeholder #-->
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
@@ -21,7 +24,7 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Background Image seperating the Header from the Main body  -->
     <div class="great" alt="Do what you love neon sign"></div>
 
     <main>
@@ -40,18 +43,23 @@
             </article>
             <article id="projects" class="projects">
                 <h2>Projects</h2>
-                <a href="https://hurleysquared.github.io/lightborder-hw/" target="_blank">
-                    <img src="images/horiseonsmall.jpg" alt="Horiseon SEO Project Clip" width="300px" height="300px">
-                </a>
-                <a href="#" target="_blank" class="placeholder">
-                    <img src="images/erik-mclean-dice.jpg" alt="Giant Dice Thrown in Air" width="260px" height="260px">
-                </a>
-                <a href="#" target="_blank" class="placeholder">
-                    <img src="images/dowhatyoulove.jpg" alt="Do What You Love Sign" width="260px" height="260px">
-                </a>
+                <section>
+                    <!-- Used figure because all of this is self contained -->
+                    <figure>
+                        <a href="https://hurleysquared.github.io/lightborder-hw/" target="_blank"
+                            class="project-horiseon" alt="Horiseon project image">Horiseon SEO Refractor</a>
+                    </figure>
+                    <figure class="small">
+                        <a href="#" class="project1" alt="Dice being thrown in air">Future Project</a>
+                    </figure>
+                    <figure class="small">
+                        <a href="#" class="project2" alt="Do what you love sign">Future Project</a>
+                    </figure>
+                </section>
             </article>
             <article id="contact-me" class="contact-me">
                 <h2>Contact Me</h2>
+                <!-- Links to get ahold of me or my profiles -->
                 <a href="https://github.com/HurleySquared" target="_blank">Github</a>
                 <a href="mailto:erichurley421@gmail.com">E-mail</a>
                 <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
@@ -59,7 +67,7 @@
             </article>
         </section>
     </main>
-
+    <!-- Added year to the footer  -->
     <footer>
         <span>Eric Hurley | Portfolio | 2021 </span>
     </footer>
