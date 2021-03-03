@@ -65,6 +65,7 @@ li::after {
 li:hover {
     cursor: grab;
     box-shadow: -8px -4px 4px #bdf6f8;
+    color: black;
 }
 
 .great {
@@ -98,67 +99,14 @@ h2 {
     font-size: 32px;
 }
 
-.projects section {
-    display: flex;
-    justify-content: row;
-    flex-wrap: wrap;
+/* New CSS for Images */
+.card {
+    margin: 20px;
 }
 
-figure {
-    box-sizing: border-box;
-    min-width: 100%;
-    min-height: 200px;
-    border: 4px solid #858a92;
-    margin-left: 28px;
-    margin-bottom: 20px;
-    padding: 4px;
-}
-
-figure a {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: baseline;
-    position: relative;
-    font-size: 20px;
+.card-text {
     text-decoration: none;
-    background: #858a92;
-    color: #fff;
-    box-sizing: border-box;
-}
-
-figure a:hover{
-    cursor: grabbing;
-    opacity: .5;
-}
-
-.project-horiseon {
-    flex-basis: 100%;
-    background-image: url(../images/tophalf2.jpg.png);
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-}
-
-.small {
-    max-width: 50%;
-    flex-basis: 50%;
-}
-
-.project1 {
-    background-image: url(../images/erik-mclean-dice.jpg);
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-}
-
-.project2 {
-    background-image: url(../images/dowhatyoulove.jpg);
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
+    color: rgb(99, 18, 18);
 }
 
 .contact-me a {

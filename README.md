@@ -42,7 +42,3 @@ Three of the images used were taken from [Unsplash](https://unsplash.com/)
 The artists i downloaded the images from are:
 - Clark Tibbs 
 ![Do Something Great](images/somethinggreat.jpg)
-- Erik Mclean 
-![Dice in the air](images/erik-mclean-dice.jpg)
-- Riz Mooney 
-![Do What You Love](images/dowhatyoulove.jpg)
