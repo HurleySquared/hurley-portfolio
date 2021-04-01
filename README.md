@@ -5,12 +5,11 @@ My personal portfolio to give a brief introduction into myself and to showcase s
 ## Table of Contents
 - Description of Portfolio Project
 - Links to deployed portfolio and GitHub repo
-- Requirements
 - Screenshots
 - Sources of Images
 
 ## Description of Portfolio Project
-Starting with a blank text editor I built the HTML close to where I wanted it.  Next up was building the CSS and adjusting both as I went. The navigation links in the header will take you down below where the main body of my portfolio lies. A short intro to my self comes up first. Following that will be my projects section. Projects includes an image of my last project Horiseon SEO Refractor that was a clickable link.  The next two beside that are reserved for future projects I will be doing. Even further south on the page will bring you to a contact me section.  These are all links to profiles or my e-mail.
+Starting with a blank text editor I built the HTML close to where I wanted it.  Next up was building the CSS and adjusting both as I went. The navigation links in the header will take you down below where the main body of my portfolio lies. A short intro to my self comes up first. Following that will be my projects section. Projects includes cards with a image, description, and links to repo and active site. Even further south on the page will bring you to a Contact Me section.  These are all links to profiles and my e-mail.
 
 ## Links to GitHub repo and deployed website
 [Link to Repo](https://github.com/HurleySquared/hurley-portfolio)
@@ -22,6 +21,3 @@ Starting with a blank text editor I built the HTML close to where I wanted it.  
 
 ## Sources of Images
 Three of the images used were taken from [Unsplash](https://unsplash.com/)
-The artists i downloaded the images from are:
-- Clark Tibbs 
-![Do Something Great](images/somethinggreat.jpg)

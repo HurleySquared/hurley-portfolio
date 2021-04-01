@@ -5,159 +5,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Crimson+Text&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="assets/style.css">
     <title>Eric Hurley | Portfolio</title>
 </head>
 
 <body>
-    <section class="hero is-small">
-        <div class="hero-body">
-            <div class="level">
-                <h1>Eric Hurley</h1>
-                <img class="selfie" src="images/aboutmecroppedagain.jpg">
+    <header>
+        <section class="hero is-small">
+            <div class="hero-body">
+                <div class="level">
+                    <h1>Eric Hurley</h1>
+                    <img class="selfie" src="images/aboutmecroppedagain.jpg">
+                </div>
+                <nav class="level">
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <a href="#about-me" class="title nav">About Me</a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <a href="#projects" class="title nav">Projects</a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <a href="#contact-me" class="title nav">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <a class="title nav"
+                                href="https://docs.google.com/document/d/1ws8_QW5SPapujCuHXj8KvUz8nat8maRGm_ZPXHEaEOU/edit?usp=sharing"
+                                target="_blank">Resume</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <nav class="level">
-                <div class="level-item has-text-centered">
-                    <div>
-                        <a href="#about-me" class="title nav">About Me</a>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered">
-                    <div>
-                        <a href="#projects" class="title nav">Projects</a>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered">
-                    <div>
-                        <a href="#contact-me" class="title nav">Contact Me</a>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered">
-                    <div>
-                        <a class="title nav"
-                            href="https://docs.google.com/document/d/1ws8_QW5SPapujCuHXj8KvUz8nat8maRGm_ZPXHEaEOU/edit?usp=sharing"
-                            target="_blank">Resume</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </section>
-    <div class="container">
-        <div class="notification">
-            <section class="section" id="about-me">
-                <h2 class="title">About Me</h2>
-                <p class="subtitle">
-                    Hello There! I'm a Lineman turned Developer. In January of 2021 I decided to start my journey in
-                    this realm.
-                    The past 5+ years I went the self-taught route on and off with coding and IT before finally
-                    enrolling in a coding bootcamp.
-                    Some of my hobbies include Brazilian Jiu-Jitsu, learning about tech, snowboarding,
-                    working on cars, traveling, and hiking. I dabble in photography and graphic design from time
-                    to time as well.
-                </p>
-            </section>
-            <section class="section" id="projects">
-                <div class="columns is-multiline">
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <div class="notification">
+                <section class="section" id="about-me">
+                    <h2 class="title">About Me</h2>
+                    <p class="subtitle">
+                        Hello There! I'm a Lineman turned Developer. In January of 2021 I decided to start my journey in
+                        this realm.
+                        The past 5+ years I went the self-taught route on and off with coding and IT before finally
+                        enrolling in a coding bootcamp.
+                        Some of my hobbies include Brazilian Jiu-Jitsu, learning about tech, snowboarding,
+                        working on cars, traveling, and hiking. I dabble in photography and graphic design from time
+                        to time as well.
+                    </p>
+                </section>
+                <section class="section" id="projects">
                     <h2 class="title">Projects</h2>
-                    <div class="card column is-three-quarters first">
-                        <div class="card-image">
-                            <figure class="image is-2x1">
-                                <img src="./images/boo-homepage.png" alt="Bane of Olympus Application">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="subtitle is-6">Bane of Olympus is a game where the user battles against
-                                        the old Gods. Login or Sign up to leave your name in the rankings against other
-                                        players.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <a href="https://baneofolympus.herokuapp.com/" target="_blank" class="card-footer-item">Bane
-                                of Olympus</a>
-                            <a href="https://github.com/HurleySquared/bane-of-olympus" target="_blank"
-                                class="card-footer-item">Bane of Olympus GitHub Repo</a>
-                        </footer>
-                    </div>
-                    <div class="column second is-one-third is-offset-2">
-                        <div class="card ">
+                    <div class="columns is-multiline">
+                        <div class="card column is-three-quarters first">
                             <div class="card-image">
                                 <figure class="image is-2x1">
-                                    <img src="./images/freshair.png" alt="Fresh Air Finder Application">
+                                    <img src="./images/boo-homepage.png" alt="Bane of Olympus Application">
                                 </figure>
                             </div>
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-content">
-                                        <p class="subtitle is-6">This application locates National Parks in the
-                                            state
-                                            you
-                                            select. You can then see a 5-Day weather forecast based on that parks
-                                            area
-                                            code.
-                                        </p>
+                                        <p class="subtitle is-6">Bane of Olympus is a game where the user battles
+                                            against
+                                            the old Gods. Login or Sign up to leave your name in the rankings against
+                                            other
+                                            players.</p>
                                     </div>
                                 </div>
                             </div>
                             <footer class="card-footer">
-                                <a href="https://hurleysquared.github.io/fresh-air-finder/" target="_blank"
-                                    class="card-footer-item">Fresh Air Finder Project</a>
-                                <a href="https://github.com/HurleySquared/fresh-air-finder" target="_blank"
-                                    class="card-footer-item">Fresh Air Finder GitHub Repo</a>
+                                <div class="check">
+                                    <a href="https://baneofolympus.herokuapp.com/" target="_blank"
+                                        class="card-footer-item">Bane
+                                        of Olympus</a>
+                                </div>
+                                <div class="check">
+                                    <a href="https://github.com/HurleySquared/bane-of-olympus" target="_blank"
+                                        class="card-footer-item">Bane of Olympus GitHub Repo</a>
+                                </div>
                             </footer>
                         </div>
-                    </div>
-                    <div class="column second is-one-third">
-                        <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-2x1">
-                                    <img src="./images/password-gen-working.jpg" alt="Password Generator Application">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p class="subtitle is-6">This application will randomly generate a password
-                                            between
-                                            8-128 characters.</p>
+                        <div class="column second is-one-third">
+                            <div class="card ">
+                                <div class="card-image">
+                                    <figure class="image is-2x1">
+                                        <img src="./images/freshair.png" alt="Fresh Air Finder Application">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="subtitle is-6">This application locates National Parks in the
+                                                state
+                                                you
+                                                select. You can then see a 5-Day weather forecast based on that parks
+                                                area
+                                                code.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <footer class="card-footer">
+                                    <div class="check">
+                                    <a href="https://hurleysquared.github.io/fresh-air-finder/" target="_blank"
+                                        class="card-footer-item">Fresh Air Finder Project</a>
+                                    </div>
+                                    <div class="check">
+                                    <a href="https://github.com/HurleySquared/fresh-air-finder" target="_blank"
+                                        class="card-footer-item">Fresh Air Finder GitHub Repo</a>
+                                    </div>
+                                </footer>
                             </div>
-                            <footer class="card-footer">
-                                <a href="https://hurleysquared.github.io/password-generator/" target="_blank"
-                                    class="card-footer-item">Password Generator Application</a>
-                                <a href="https://github.com/HurleySquared/password-generator" target="_blank"
-                                    class="card-footer-item">Password Generator GitHub Repo</a>
-                            </footer>
+                        </div>
+                        <div class="column second is-one-third">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-2x1">
+                                        <img src="./images/password-gen-working.jpg"
+                                            alt="Password Generator Application">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="subtitle is-6">This application will randomly generate a password
+                                                between
+                                                8-128 characters.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <div class="check">
+                                    <a href="https://hurleysquared.github.io/password-generator/" target="_blank"
+                                        class="card-footer-item">Password Generator Application</a>
+                                    </div>
+                                    <div class="check">
+                                    <a href="https://github.com/HurleySquared/password-generator" target="_blank"
+                                        class="card-footer-item">Password Generator GitHub Repo</a>
+                                    </div>
+                                </footer>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="section" id="projects">
-                <article>
+                </section>
+                <section class="section" id="contact-me">
                     <h2>Contact Me</h2>
-                    <div class="level-item has-text-centered">
-                        <a class="title" href="https://github.com/HurleySquared" target="_blank">Github</a>
-                    </div>
-                    <div class="level-item has-text-centered">
-                        <a class="title" href="https://www.linkedin.com/in/eric-hurley-profile"
-                            target="_blank">LinkedIn</a>
-                    </div>
-                    <div class="level-item has-text-centered">
-                        <a class="title" href="mailto:erichurley421@gmail.com">E-mail</a>
-                    </div>
-                    <div class="level-item has-text-centered">
-                        <a class="title"
-                            href="https://docs.google.com/document/d/1ws8_QW5SPapujCuHXj8KvUz8nat8maRGm_ZPXHEaEOU/edit?usp=sharing"
-                            target="_blank">Resume</a>
-                    </div>
-                </article>
-            </section>
+                    <article class="level">
+                        <div class="level-item has-text-centered">
+                            <a class="title" href="https://github.com/HurleySquared" target="_blank">Github</a>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <a class="title" href="https://www.linkedin.com/in/eric-hurley-profile"
+                                target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <a class="title" href="mailto:erichurley421@gmail.com">E-mail</a>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <a class="title"
+                                href="https://docs.google.com/document/d/1ws8_QW5SPapujCuHXj8KvUz8nat8maRGm_ZPXHEaEOU/edit?usp=sharing"
+                                target="_blank">Resume</a>
+                        </div>
+                    </article>
+                </section>
+            </div>
         </div>
-    </div>
+    </main>
     <footer class="hero is-small">
         <div class="hero-body">
             <h3>Eric Hurley | Portfolio | 2021</h3>
